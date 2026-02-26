@@ -1,0 +1,360 @@
+/* demo.css – estilos compartidos para todas las páginas demo */
+/* Vidal Reñao · Website Demos */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+  background: #f6f9fc;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+a { color: inherit; }
+
+.container {
+  width: min(1100px, 90%);
+  margin: auto;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.brand__mark {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.brand__text strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.brand__text span {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* ── Nav ─────────────────────────────────────────────────────────────────── */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  padding: 0.4rem 0.65rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  transition: background 0.12s;
+}
+
+.nav a:hover { background: #f0f0f0; }
+
+.nav__cta {
+  background: #4fd1ff !important;
+  color: #000 !important;
+  margin-left: 0.25rem;
+}
+
+.nav__cta:hover { background: #30c4f8 !important; }
+
+/* ── Language Switcher ──────────────────────────────────────────────────── */
+.lang-switcher {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.lang-btn {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 8px;
+  padding: 0.28rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #5b6573;
+  font-family: inherit;
+  transition: background 0.12s, color 0.12s;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.lang-btn:hover {
+  background: #e6f6ff;
+  color: #1a1a1a;
+}
+
+.lang-btn--active {
+  background: #4fd1ff;
+  color: #000;
+  border-color: #4fd1ff;
+  font-weight: 700;
+}
+
+/* ── Hero ────────────────────────────────────────────────────────────────── */
+.hero {
+  padding: 3rem 0 2.5rem;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.3px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.2px;
+}
+
+.muted {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.hero__actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.hero__card {
+  background: white;
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.hero__card ul {
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.hero__card li {
+  font-size: 0.97rem;
+  color: #333;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.75rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  transition: transform 0.12s, box-shadow 0.12s;
+  cursor: pointer;
+}
+
+.btn:hover { transform: translateY(-2px); }
+
+.btn--primary {
+  background: #4fd1ff;
+  color: #000;
+  box-shadow: 0 6px 16px rgba(79,209,255,0.3);
+}
+
+.btn--secondary {
+  background: #e6f6ff;
+  color: #000;
+  border-color: rgba(0,0,0,0.08);
+}
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+.section {
+  padding: 2.5rem 0;
+}
+
+.section--alt {
+  background: #ffffff;
+}
+
+/* ── Grid & Cards ────────────────────────────────────────────────────────── */
+.grid { display: grid; gap: 1rem; }
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card,
+.feature {
+  background: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* ── Contact ─────────────────────────────────────────────────────────────── */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.contact__card {
+  background: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.contact__card h2 { margin-bottom: 0.5rem; }
+
+.contact__line {
+  margin-top: 0.75rem;
+  font-size: 0.97rem;
+}
+
+.contact__actions {
+  margin-top: 1.25rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 270px;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: underline;
+  margin: 0 0.25rem;
+}
+
+/* ── WhatsApp Float ──────────────────────────────────────────────────────── */
+.wa-float {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  background: #25D366;
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.14);
+  border: 1px solid rgba(0,0,0,0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.wa-float:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(0,0,0,0.18);
+}
+
+.wa-float__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255,255,255,0.75);
+  font-size: 1.1rem;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .hero__grid,
+  .contact,
+  .grid--3 {
+    grid-template-columns: 1fr;
+  }
+
+  h1 { font-size: 1.65rem; }
+
+  .header__inner { flex-wrap: wrap; }
+}
+
+@media (max-width: 520px) {
+  .wa-float__text { display: none; }
+  .wa-float { padding: 0.8rem; }
+
+  .hero__actions { flex-direction: column; }
+  .btn { width: 100%; }
+}

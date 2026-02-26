@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="cleaning.title">Demo</title>
+  <link rel="stylesheet" href="../demo.css" />
+</head>
+<body data-wa-type="demo">
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <div class="brand__mark">🧽</div>
+        <div class="brand__text">
+          <strong data-i18n="cleaning.brand.strong">Brand</strong>
+          <span data-i18n="cleaning.brand.span">Tagline</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#services" data-i18n="nav.services">Section</a>
+        <a href="#why" data-i18n="nav.why">Section 2</a>
+        <a href="#contact" class="nav__cta" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <h1 data-i18n="cleaning.hero.h1">Headline</h1>
+        <p class="muted" data-i18n="cleaning.hero.p">Subline</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="shared.btn.quote">CTA 1</a>
+          <a href="#services" class="btn btn--secondary" data-i18n="shared.btn.services">CTA 2</a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <ul>
+          <li data-i18n="cleaning.li1">✔ Feature 1</li>
+          <li data-i18n="cleaning.li2">✔ Feature 2</li>
+          <li data-i18n="cleaning.li3">✔ Feature 3</li>
+          <li data-i18n="cleaning.li4">✔ Feature 4</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2 data-i18n="cleaning.section1.h2">Services</h2>
+      <div class="grid grid--3">
+        <div class="card" data-i18n="cleaning.card1">card1</div>
+        <div class="card" data-i18n="cleaning.card2">card2</div>
+        <div class="card" data-i18n="cleaning.card3">card3</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="section section--alt">
+    <div class="container">
+      <h2 data-i18n="cleaning.section2.h2">Why us</h2>
+      <div class="grid grid--3">
+        <div class="feature" data-i18n="cleaning.feat1">Feature 1</div>
+        <div class="feature" data-i18n="cleaning.feat2">Feature 2</div>
+        <div class="feature" data-i18n="cleaning.feat3">Feature 3</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div class="contact__card">
+        <h2 data-i18n="shared.contact.h2">Kontakt</h2>
+        <p class="muted" data-i18n="shared.contact.p">Rufen Sie uns an oder schreiben Sie uns kurz.</p>
+        <div class="contact__line">📞 <a class="link" href="tel:+41779726299">+41 77 972 62 99</a></div>
+        <div class="contact__line">✉️ <a class="link" href="mailto:vidalrenao.lab@outlook.com">vidalrenao.lab@outlook.com</a></div>
+        <div class="contact__line" data-i18n="shared.contact.location">📍 Region &amp; Umgebung</div>
+        <div class="contact__actions">
+          <a class="btn btn--primary" data-wa href="#" target="_blank" rel="noopener">
+            <span data-i18n="shared.btn.whatsapp">WhatsApp schreiben</span>
+          </a>
+          <a class="btn btn--secondary" href="mailto:vidalrenao.lab@outlook.com?subject=Anfrage%20Website" target="_blank" rel="noopener">
+            <span data-i18n="shared.btn.email">E-Mail senden</span>
+          </a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Switzerland&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span data-i18n="cleaning.footer">© Demo</span>
+      <span data-i18n="shared.footer.by">Website demo by Vidal Reñao</span>
+    </div>
+    <a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a>
+  </footer>
+
+  <a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <span class="wa-float__icon">💬</span>
+    <span class="wa-float__text" data-i18n="shared.wa.label">WhatsApp</span>
+  </a>
+
+  <script src="../i18n.js"></script>
+</body>
+</html>

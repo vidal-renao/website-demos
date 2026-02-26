@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pintor – Demo</title>
+  <link rel="stylesheet" href="../demo.css" />
+</head>
+<body data-wa-type="demo">
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <div class="brand__mark">🖌️</div>
+        <div class="brand__text">
+          <strong data-i18n="painter.brand.strong">Painting Services</strong>
+          <span data-i18n="painter.brand.span">Clean & precise work</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#why" data-i18n="nav.why">Why us</a>
+        <a href="#contact" class="nav__cta" data-i18n="nav.contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <h1 data-i18n="painter.hero.h1">Interior & Exterior Painting</h1>
+        <p class="muted" data-i18n="painter.hero.p">Professional painting for homes and businesses. Clean work, clear pricing.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="shared.btn.quote">Request a quote</a>
+          <a href="#services" class="btn btn--secondary" data-i18n="shared.btn.services">Our services</a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <ul>
+          <li data-i18n="painter.li1">✔ Interior painting</li>
+          <li data-i18n="painter.li2">✔ Exterior & facade</li>
+          <li data-i18n="painter.li3">✔ Wallpaper & plastering</li>
+          <li data-i18n="painter.li4">✔ Clean & tidy work</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2 data-i18n="painter.section1.h2">Our Services</h2>
+      <div class="grid grid--3">
+        <div class="card" data-i18n="painter.card1">Interior painting</div>
+        <div class="card" data-i18n="painter.card2">Exterior & facade</div>
+        <div class="card" data-i18n="painter.card3">Wallpaper & plaster</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="section section--alt">
+    <div class="container">
+      <h2 data-i18n="painter.section2.h2">Why choose us</h2>
+      <div class="grid grid--3">
+        <div class="feature" data-i18n="painter.feat1">Clean & precise</div>
+        <div class="feature" data-i18n="painter.feat2">Quality materials</div>
+        <div class="feature" data-i18n="painter.feat3">On time & on budget</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div class="contact__card">
+        <h2 data-i18n="shared.contact.h2">Kontakt</h2>
+        <p class="muted" data-i18n="shared.contact.p">Rufen Sie uns an oder schreiben Sie uns kurz.</p>
+        <div class="contact__line">📞 <a class="link" href="tel:+41779726299">+41 77 972 62 99</a></div>
+        <div class="contact__line">✉️ <a class="link" href="mailto:vidalrenao.lab@outlook.com">vidalrenao.lab@outlook.com</a></div>
+        <div class="contact__line" data-i18n="shared.contact.location">📍 Region & Umgebung</div>
+        <div class="contact__actions">
+          <a class="btn btn--primary" data-wa href="#" target="_blank" rel="noopener">
+            <span data-i18n="shared.btn.whatsapp">WhatsApp schreiben</span>
+          </a>
+          <a class="btn btn--secondary" href="mailto:vidalrenao.lab@outlook.com?subject=Anfrage%20Website" target="_blank" rel="noopener">
+            <span data-i18n="shared.btn.email">E-Mail senden</span>
+          </a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Switzerland&output=embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span data-i18n="painter.footer">© Demo – Painting Services</span>
+      <span data-i18n="shared.footer.by">Website demo by Vidal Reñao</span>
+    </div>
+    <a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a>
+  </footer>
+
+  <a class="wa-float" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <span class="wa-float__icon">💬</span>
+    <span class="wa-float__text" data-i18n="shared.wa.label">WhatsApp</span>
+  </a>
+
+  <script src="../i18n.js"></script>
+</body>
+</html>
