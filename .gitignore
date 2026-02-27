@@ -1,1 +1,16 @@
-".vs/" 
+# Visual Studio
+.vs/
+*.sln
+*.slnx
+*.user
+*.suo
+
+# VSCode
+.vscode/
+
+# Node (por si algún día)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
