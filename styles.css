@@ -596,3 +596,105 @@
   .contact-form-wrap { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
 }
+
+/* ─── IT Services Section ───────────────────────────────────────────────── */
+.it-section {
+  background: linear-gradient(135deg, #0f1923 0%, #1a2d3d 100%);
+  border-radius: var(--radius);
+  padding: 3rem 2.5rem;
+  color: #fff;
+}
+
+.it-section__header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.it-badge {
+  display: inline-block;
+  background: rgba(79,209,255,0.15);
+  color: var(--accent);
+  border: 1px solid rgba(79,209,255,0.3);
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+.it-section h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.it-section > .it-section__header > p {
+  color: rgba(255,255,255,0.65);
+  max-width: 580px;
+  margin: 0 auto;
+  font-size: 0.97rem;
+}
+
+.it-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem;
+  margin-bottom: 2.5rem;
+}
+
+.it-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 14px;
+  padding: 1.5rem 1.4rem;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.it-card:hover {
+  background: rgba(79,209,255,0.08);
+  border-color: rgba(79,209,255,0.3);
+  transform: translateY(-4px);
+}
+
+.it-card__icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.it-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.it-card p {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.it-cta {
+  text-align: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.it-cta p {
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 1rem;
+  font-size: 0.97rem;
+}
+
+@media (max-width: 900px) {
+  .it-grid { grid-template-columns: repeat(2, 1fr); }
+  .it-section { padding: 2rem 1.5rem; }
+}
+
+@media (max-width: 520px) {
+  .it-grid { grid-template-columns: 1fr; }
+}

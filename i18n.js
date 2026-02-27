@@ -435,3 +435,65 @@ TRANSLATIONS['shared.btn.appointment'] = { es:'Pedir cita', en:'Book appointment
 
 // Flecha en tarjetas
 TRANSLATIONS['card.demo.arrow'] = { es:'→ Ver demo', en:'→ View demo', de:'→ Demo ansehen' };
+
+// ─── IT SERVICES SECTION ─────────────────────────────────────────────────────
+TRANSLATIONS['it.badge'] = { es:'Soluciones IT', en:'IT Solutions', de:'IT Solutions' };
+TRANSLATIONS['it.h2']    = { es:'Servicios IT para PYMEs', en:'IT Services for SMBs', de:'IT Services für KMU' };
+TRANSLATIONS['it.p']     = {
+  es:'Además de webs, ofrezco soluciones IT completas para pequeñas y medianas empresas en Suiza y Liechtenstein.',
+  en:'Beyond websites, I offer complete IT solutions for small and medium businesses in Switzerland and Liechtenstein.',
+  de:'Neben Webseiten biete ich umfassende IT-Lösungen für KMU in der Schweiz und Liechtenstein.'
+};
+
+TRANSLATIONS['it.m365.h3'] = { es:'Microsoft 365 & Entra ID', en:'Microsoft 365 & Entra ID', de:'Microsoft 365 & Entra ID' };
+TRANSLATIONS['it.m365.p']  = {
+  es:'Configuración, migración y gestión de entornos M365. Usuarios, grupos, MFA, Acceso Condicional e identidades seguras en la nube con Entra ID.',
+  en:'Setup, migration and management of M365 environments. Users, groups, MFA, Conditional Access and secure cloud identities with Entra ID.',
+  de:'Setup, Migration und Verwaltung von M365-Umgebungen. Benutzer, Gruppen, MFA, Conditional Access und sichere Cloud-Identitäten mit Entra ID.'
+};
+
+TRANSLATIONS['it.intune.h3'] = { es:'Intune & Windows Autopilot', en:'Intune & Windows Autopilot', de:'Intune & Windows Autopilot' };
+TRANSLATIONS['it.intune.p']  = {
+  es:'Despliegue zero-touch: dispositivos listos en menos de 5 minutos, sin configuración manual. Políticas MDM, seguridad de endpoints y onboarding automatizado.',
+  en:'Zero-touch deployment: devices ready in under 5 minutes with no manual work. MDM policies, endpoint security and automated onboarding.',
+  de:'Zero-Touch-Deployment: Geräte in unter 5 Minuten einsatzbereit. MDM-Policies, Endpoint Security und automatisiertes Onboarding.'
+};
+
+TRANSLATIONS['it.server.h3'] = { es:'Windows Server', en:'Windows Server', de:'Windows Server' };
+TRANSLATIONS['it.server.p']  = {
+  es:'Instalación, configuración y mantenimiento de entornos Windows Server. Active Directory, GPOs, servidores de archivos y soluciones de backup.',
+  en:'Installation, configuration and maintenance of Windows Server environments. Active Directory, GPOs, file servers and backup solutions.',
+  de:'Installation, Konfiguration und Wartung von Windows Server-Umgebungen. Active Directory, GPOs, Dateiserver und Backup-Lösungen.'
+};
+
+TRANSLATIONS['it.network.h3'] = { es:'Redes / Networking', en:'Networking', de:'Networking' };
+TRANSLATIONS['it.network.p']  = {
+  es:'Diseño y configuración de redes locales, VLANs, VPN y WiFi. Conectividad estable y segura para oficinas y pequeñas empresas.',
+  en:'Design and setup of local networks, VLANs, VPN and WiFi. Stable and secure connectivity for offices and small businesses.',
+  de:'Planung und Einrichtung von Netzwerken, VLANs, VPN und WLAN. Stabile und sichere Konnektivität für Büros und KMU.'
+};
+
+TRANSLATIONS['it.linux.h3'] = { es:'Linux', en:'Linux', de:'Linux' };
+TRANSLATIONS['it.linux.p']  = {
+  es:'Administración de servidores Linux, scripting y automatización. Ideal para servidores económicos, servicios self-hosted y entornos de desarrollo.',
+  en:'Linux server administration, shell scripting and automation. Ideal for cost-effective servers, self-hosted services and dev environments.',
+  de:'Administration von Linux-Servern, Shell-Scripting und Automatisierung. Ideal für kostengünstige Server und Self-Hosted-Dienste.'
+};
+
+TRANSLATIONS['it.hardware.h3'] = { es:'Hardware & Software', en:'Hardware & Software', de:'Hardware & Software' };
+TRANSLATIONS['it.hardware.p']  = {
+  es:'Adquisición, configuración y soporte de PCs, portátiles y periféricos. Despliegue de software, gestión de licencias y soporte IT continuo.',
+  en:'Procurement, setup and support for PCs, laptops and peripherals. Software deployment, licence management and ongoing IT support.',
+  de:'Beschaffung, Einrichtung und Support von PCs, Laptops und Peripheriegeräten. Software-Deployment, Lizenzverwaltung und laufender IT-Support.'
+};
+
+TRANSLATIONS['it.cta.p']   = {
+  es:'¿Interesado en una solución IT para tu empresa?',
+  en:'Interested in an IT solution for your business?',
+  de:'Interesse an einer IT-Lösung für Ihr Unternehmen?'
+};
+TRANSLATIONS['it.cta.btn'] = {
+  es:'💬 Consultar sin compromiso',
+  en:'💬 Get in touch',
+  de:'💬 Unverbindlich anfragen'
+};
