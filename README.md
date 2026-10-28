@@ -1,75 +1,40 @@
-# Website Demos – Vidal Reñao
-🔗 Live Landing Page:
-https://vidal-renao.github.io/website-demos/
-Professionelle Website-Beispiele für lokale Betriebe  
-sowie IT-Lösungen für KMU in der Schweiz & Liechtenstein.
+# Website Demos
 
-Mobilfreundlich · Klar strukturiert · Direkt kontaktierbar
+A collection of website concepts for local businesses in Switzerland and Liechtenstein.
 
----
+**Status: demonstration portfolio.** These examples illustrate layouts and business use cases; they do not represent twelve commissioned client websites.
 
-## 🌐 Website-Beispiele nach Branche
+[Browse the demo directory](https://vidal-renao.github.io/website-demos/) · [Professional portfolio](https://vidal-pro-portfolio.vercel.app/en)
 
-Wählen Sie eine Branche und sehen Sie eine Live-Demo:
+## Explore by industry
 
-- 🧽 **Reinigung**  
-  👉 https://vidal-renao.github.io/website-demos/cleaning/
+| Industry | Demo |
+|---|---|
+| Cleaning | [Open demo](https://vidal-renao.github.io/website-demos/cleaning/) |
+| Electrician | [Open demo](https://vidal-renao.github.io/website-demos/electrician/) |
+| Plumbing | [Open demo](https://vidal-renao.github.io/website-demos/plumber/) |
+| Handyman | [Open demo](https://vidal-renao.github.io/website-demos/handyman/) |
+| Restaurant | [Open demo](https://vidal-renao.github.io/website-demos/restaurant/) |
+| Café | [Open demo](https://vidal-renao.github.io/website-demos/cafe/) |
+| Bakery | [Open demo](https://vidal-renao.github.io/website-demos/bakery/) |
+| Moving services | [Open demo](https://vidal-renao.github.io/website-demos/moving/) |
+| Hairdresser | [Open demo](https://vidal-renao.github.io/website-demos/hairdresser/) |
+| Gardening | [Open demo](https://vidal-renao.github.io/website-demos/garden/) |
+| Physiotherapy | [Open demo](https://vidal-renao.github.io/website-demos/physio/) |
+| Painting | [Open demo](https://vidal-renao.github.io/website-demos/painter/) |
 
-- ⚡ **Elektriker**  
-  👉 https://vidal-renao.github.io/website-demos/electrician/
+## What this repository demonstrates
 
-- 🚰 **Sanitär**  
-  👉 https://vidal-renao.github.io/website-demos/plumber/
+- Responsive business websites using HTML, CSS and JavaScript.
+- Service presentation, contact paths and industry-specific page structure.
+- Reusable design ideas that can be adapted to a business brief.
 
-- 🛠️ **Handwerker**  
-  👉 https://vidal-renao.github.io/website-demos/handyman/
+## View locally
 
-- 🍽️ **Restaurant**  
-  👉 https://vidal-renao.github.io/website-demos/restaurant/
+Clone the repository and serve its root with a local static web server, then open `index.html` through that server. No application build step is required.
 
-- ☕ **Café**  
-  👉 https://vidal-renao.github.io/website-demos/cafe/
+## About the developer
 
-- 🥐 **Bäckerei**  
-  👉 https://vidal-renao.github.io/website-demos/bakery/
+I combine IT systems experience with full-stack development and business automation. I'm open to permanent IT Systems or Full-Stack roles in Switzerland and selected web development projects.
 
-- 🚚 **Umzug**  
-  👉 https://vidal-renao.github.io/website-demos/moving/
-
-- 💇 **Friseur**  
-  👉 https://vidal-renao.github.io/website-demos/hairdresser/
-
-- 🌿 **Gartenbau**  
-  👉 https://vidal-renao.github.io/website-demos/garden/
-
-- 💆 **Physiotherapie**  
-  👉 https://vidal-renao.github.io/website-demos/physio/
-
-- 🖌️ **Maler**  
-  👉 https://vidal-renao.github.io/website-demos/painter/
-
----
-
-## 💼 IT Services für KMU
-
-Neben Webseiten biete ich professionelle IT-Dienstleistungen:
-
-- Microsoft 365 & Entra ID
-- Intune & Windows Autopilot
-- Windows Server & Active Directory
-- Netzwerk & VPN
-- Linux Server
-- Hardware & Software Support
-
----
-
-## 📩 Kontakt
-
-📞 +41 77 972 62 99  
-✉️ vidalrenao.lab@outlook.com  
-💬 WhatsApp: https://wa.me/41779726299  
-
----
-
-Diese Repository dient als Demo-Portfolio.  
-Inhalte und Design werden individuell an jeden Betrieb angepasst.
+[Portfolio in English](https://vidal-pro-portfolio.vercel.app/en) · [LinkedIn](https://www.linkedin.com/in/vidalrenao/)
